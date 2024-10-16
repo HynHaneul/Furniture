@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Furniture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\models\\context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\models\\context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\models\\context\\subscribe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\models\\context\\subscribe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 364,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Category\\Add.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAEIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T09:43:30.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:30:05.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\Category.cs",
+              "RelativeDocumentMoniker": "Furniture\\Models\\Context\\Category.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Models\\Context\\Category.cs",
+              "RelativeToolTip": "Furniture\\Models\\Context\\Category.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:24:05.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T10:10:31.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Subscribe.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\Subscribe.cs",
+              "RelativeDocumentMoniker": "Furniture\\Models\\Context\\Subscribe.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Models\\Context\\Subscribe.cs",
+              "RelativeToolTip": "Furniture\\Models\\Context\\Subscribe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:32:59.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T09:05:59.613Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 36,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
