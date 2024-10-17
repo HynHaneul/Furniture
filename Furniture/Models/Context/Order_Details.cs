@@ -8,7 +8,7 @@ using System.Web;
 namespace Furniture.Models.Context
 {
     [Table("Order_Details")]
-    public partial class Order_Details
+    public class Order_Details
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

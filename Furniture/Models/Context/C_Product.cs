@@ -7,7 +7,7 @@ using System.Web;
 
 namespace Furniture.Models.Context
 {
-    [Table("C_Product")]
+    [Table("_Product")]
     public  class C_Product
     {
         public C_Product()
@@ -21,6 +21,7 @@ namespace Furniture.Models.Context
         [Required]
         [StringLength(250)]
         public string Title { get; set; }
+        public string Alias { get; set; }
         public string ProductCode { get; set; }
         public string C_Description { get; set; }
         public string Detail { get; set; }

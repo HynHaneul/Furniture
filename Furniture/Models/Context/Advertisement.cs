@@ -10,7 +10,7 @@ namespace Furniture.Models.Context
 {
 
     [Table("Advertisement")]
-    public partial class Advertisement
+    public class Advertisement
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]

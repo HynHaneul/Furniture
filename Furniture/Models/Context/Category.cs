@@ -7,8 +7,8 @@ using System.Web;
 
 namespace Furniture.Models.Context
 {
-    [Table("Category")]
-    public partial class Category
+    [Table("dbo.Category")]
+    public class Category
     {
         public Category()
         {
@@ -22,6 +22,7 @@ namespace Furniture.Models.Context
         [Required(ErrorMessage ="Tên Danh Mục không được để trống")]
         [StringLength(150)]
         public string Title { get; set; }
+        public string Alias { get; set; }
         public string C_Description { get; set; }
         public int Position { get; set; }
         [StringLength(150)]

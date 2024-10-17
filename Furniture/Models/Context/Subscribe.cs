@@ -8,7 +8,7 @@ using System.Web;
 namespace Furniture.Models.Context
 {
     [Table("Subscribe")]
-    public partial class Subscribe
+    public class Subscribe
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]

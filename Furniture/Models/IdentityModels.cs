@@ -23,20 +23,17 @@ namespace Furniture.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
-        {
-        }
+        public ApplicationDbContext(): base("FURNITURE"){ }
         public DbSet<Category> categories { get; set; }
         public DbSet<Advertisement> advertisements { get; set; }
         public DbSet<Post>posts { get; set; }   
-        public DbSet <News> News { get; set; }
+        public DbSet <News> news { get; set; }
         public DbSet<System_Setting> system_Settings { get; set; }
-        public DbSet <C_Product> c_Products { get; set; }
-        public DbSet<Product_Category>  product_Categories { get; set; }
-        public  DbSet <Contact> contacts { get; set; }
-        public DbSet<C_Order> c_Orders { get; set; }
-        public DbSet<Order_Details> Order_Details { get; set; }
+        public DbSet <C_Product> products { get; set; }
+        public DbSet<Product_Category>  productCategories { get; set; }
+        public DbSet <Contact> contacts { get; set; }
+        public DbSet<C_Order> orders { get; set; }
+        public DbSet<Order_Details> orderDetails { get; set; }
         public DbSet <Subscribe> subscribes { get; set; }
 
         public static ApplicationDbContext Create()

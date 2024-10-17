@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 namespace Furniture.Models.Context
 {
     [Table("_Order")]
-    public partial class C_Order
+    public class C_Order
     {
         public C_Order()
         {

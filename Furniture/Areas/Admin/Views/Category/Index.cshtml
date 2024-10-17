@@ -9,13 +9,16 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/Home/Index" class="nav-link">Trang chủ</a>
+            <a href="/Admin/Home/Index" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
             <a href="/Admin/Category/Index" class="nav-link">Danh Mục</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/Category/Add" class="nav-link">Thêm mới</a>
+            <a href="/Admin/Category/Add" class="nav-link">Thêm Mới</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin/Category/Edit" class="nav-link">Cập Nhật</a>
         </li>
     </ul>
 }
@@ -55,6 +58,7 @@
                         <th>STT</th>
                         <th>Tên Danh Mục</th>
                         <th>Mô Tả</th>
+                        <th>Thứ Tự</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -68,8 +72,9 @@
                                 <td>@item.Title</td>
                                 <td>@item.C_Description</td>
                                 <td>@item.Position</td>
+
                                 <td>
-                                    <a href="/admin/category/edit/@item.Category_ID" class="btn btn-sm btn-primary">Sửa</a>
+                                    <a href="/admin/category/edit/@item.Category_ID" class="btn btn-sm btn-secondary">Sửa</a>
                                     <a href="/admin/category/delete/@item.Category_ID" class="btn btn-sm btn-danger">Xóa</a>
                                 </td>
                             </tr>

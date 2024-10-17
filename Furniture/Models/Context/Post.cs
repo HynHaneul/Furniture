@@ -16,16 +16,17 @@ namespace Furniture.Models.Context
         [Required]
         [StringLength(150)]
         public string Title { get; set; }
-        public Nullable<int> Category_ID { get; set; }
+        public string Alias { get; set; }
+        public int Category_ID { get; set; }
         public string C_Description { get; set; }
         public string Detail { get; set; }
         public string C_Image { get; set; }
         public string SeoTitle { get; set; }
         public string SeoDescription { get; set; }
         public string SeoKeywords { get; set; }
-        public Nullable<System.DateTime> CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
         public string CreatedBy { get; set; }
-        public Nullable<System.DateTime> ModifiedDate { get; set; }
+        public DateTime ModifiedDate { get; set; }
         public string ModifiedBy { get; set; }
 
         public virtual Category Category { get; set; }

@@ -187,15 +187,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202410150859127_InitialCreate.cs" />
-    <Compile Include="Migrations\202410150859127_InitialCreate.Designer.cs">
-      <DependentUpon>202410150859127_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202410161041209_UpdateCategory.cs" />
-    <Compile Include="Migrations\202410161041209_UpdateCategory.Designer.cs">
-      <DependentUpon>202410161041209_UpdateCategory.cs</DependentUpon>
+    <Compile Include="Migrations\202410161510299_InitialCreate.cs" />
+    <Compile Include="Migrations\202410161510299_InitialCreate.Designer.cs">
+      <DependentUpon>202410161510299_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Common\Filter.cs" />
     <Compile Include="Models\Context\Advertisement.cs" />
     <Compile Include="Models\Context\Category.cs" />
     <Compile Include="Models\Context\Contact.cs" />
@@ -207,7 +204,6 @@
     <Compile Include="Models\Context\ProductImage.cs" />
     <Compile Include="Models\Context\Product_Category.cs" />
     <Compile Include="Models\Context\Subscribe.cs" />
-    <Compile Include="Models\Context\sysdiagram.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Context\System_Setting.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -2399,6 +2395,7 @@
     <Content Include="Areas\Admin\Views\Shared\_PartialSideBar.cshtml" />
     <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Category\Add.cshtml" />
+    <Content Include="Areas\Admin\Views\Category\Edit.cshtml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -2481,11 +2478,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202410150859127_InitialCreate.resx">
-      <DependentUpon>202410150859127_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202410161041209_UpdateCategory.resx">
-      <DependentUpon>202410161041209_UpdateCategory.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202410161510299_InitialCreate.resx">
+      <DependentUpon>202410161510299_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

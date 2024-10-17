@@ -14,6 +14,7 @@ namespace Furniture.Models.Context
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int News_ID { get; set; }
         public string Title { get; set; }
+        public string Alias { get; set; }
         public int Category_ID { get; set; }
         public string C_Description { get; set; }
         public string Detail { get; set; }
