@@ -27,7 +27,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Quản lý Danh Mục</h1>
+                <h1>QUẢN LÝ DANH MỤC</h1>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
@@ -57,7 +57,6 @@
                     <tr>
                         <th>STT</th>
                         <th>Tên Danh Mục</th>
-                        <th>Mô Tả</th>
                         <th>Thứ Tự</th>
                     </tr>
                 </thead>
@@ -67,15 +66,14 @@
                         var i = 1;
                         foreach (var item in Model)
                         {
-                            <tr>
+                            <tr id="trow_@item.Category_ID">
                                 <td>@i</td>
                                 <td>@item.Title</td>
-                                <td>@item.C_Description</td>
                                 <td>@item.Position</td>
 
                                 <td>
                                     <a href="/admin/category/edit/@item.Category_ID" class="btn btn-sm btn-secondary">Sửa</a>
-                                    <a href="/admin/category/delete/@item.Category_ID" class="btn btn-sm btn-danger">Xóa</a>
+                                    <a href="#" data-id="@item.Category_ID" class="btn btn-sm btn-danger btnDelete">Xóa</a>
                                 </td>
                             </tr>
                             i++;
@@ -100,4 +98,27 @@
     <!-- /.card -->
 
 </section>
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("body").on("click", ".btnDelete", function () {
+                var id = $(this).data("id");
+                var conf = confirm("Bạn có muốn xóa bản ghi này không?");
+                if (conf === true) {
+                    $.ajax({
+                        url: "/Admin/Category/delete",
+                        type: "POST",
+                        data: { id: id },
+                        success: function (rs) {
+                            if (rs.success) {
+                                $("#trow_" + id).remove();
+                            }
+                        }
+                    })
+                }
+            });
+        });
+    </script>
+}
 

@@ -70,5 +70,17 @@ namespace Furniture.Areas.Admin.Controllers
             }
             return View(model);
         }
+        [HttpPost]
+        public ActionResult Delete (int id)
+        {
+            var item = dbConnect.categories.Find(id);
+            if (item != null)
+            {
+                dbConnect.categories.Remove(item);
+                dbConnect.SaveChanges();
+                return Json(new { success = true });
+            }
+            return Json(new { success = false});
+        }
     }
 }

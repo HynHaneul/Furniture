@@ -116,5 +116,5 @@ E:\Furniture\Furniture\bin\nunit.framework.xml
 E:\Furniture\Furniture\bin\System.Runtime.CompilerServices.Unsafe.xml
 E:\Furniture\Furniture\bin\System.Threading.Tasks.Extensions.xml
 E:\Furniture\Furniture\bin\System.ValueTuple.xml
-E:\Furniture\Furniture\obj\Debug\Furniture.Migrations.InitialCreate.resources
+E:\Furniture\Furniture\obj\Debug\Furniture.Migrations.updateDatabase.resources
 E:\Furniture\Furniture\obj\Debug\Furniture.csproj.GenerateResource.cache

@@ -1,0 +1,122 @@
+﻿@model Furniture.Models.Context.News
+
+@{
+    ViewBag.Title = "Thêm Tin Tức";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section naviHeader{
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin/Home/Index" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin/Category/Index" class="nav-link">Danh Mục</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin/Category/Add" class="nav-link">Thêm Mới</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin/Category/Edit" class="nav-link">Cập Nhật</a>
+        </li>
+    </ul>
+}
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>THÊM MỚI TIN TỨC</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Tin Tức</a></li>
+                    <li class="breadcrumb-item active">Thêm Mới</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<!-- Main content -->
+<section class="content">
+
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Thông Tin Thêm Mới</h3>
+        </div>
+        <div class="card-body">
+            <div class="card-body p-0">
+                <div class="bs-stepper">
+                    <div class="bs-stepper-content">
+                        @using (Html.BeginForm("Add", "Category", FormMethod.Post, new { }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+                            <!-- your steps content here -->
+                        <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Tên Tin Tức</label>
+                                @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Tên danh mục" })
+                                @Html.ValidationMessageFor(x => x.Title, null, new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Mô Tả</label>
+                                @Html.TextAreaFor(x => x.C_Description, new { @class = "form-control" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Chi Tiết</label>
+                                @Html.TextBoxFor(x => x.Detail, new { @class = "form-control" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputFile">Chọn Ảnh</label>
+                                <div class="input-group">
+                                    <div class="custom-file">
+                                        <label class="custom-file-label" for="txtImage">Ảnh Đại Diện</label>
+                                        @Html.TextBoxFor(x => x.C_Image, new { @class = "form-control", @id="txtImage" ,@placeholder = "Ảnh đại diện",@name="Image" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Alias</label>
+                                @Html.TextBoxFor(x => x.Alias, new { @class = "form-control" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Ngày Tạo</label>
+                                @Html.TextBoxFor(x => x.CreatedDate, new { @class = "form-control" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Seo Title</label>
+                                @Html.TextBoxFor(x => x.SeoTitle, new { @class = "form-control" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Seo Description</label>
+                                @Html.TextBoxFor(x => x.SeoDescription, new { @class = "form-control" })
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Seo Keywords</label>
+                                @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
+                            </div>
+                            <div class="form-group">
+                                <a href="/admin/category/index" class="btn btn-danger">Quay Lại</a>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                        }
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+        </div>
+        <!-- /.card-footer-->
+    </div>
+    <!-- /.card -->
+
+</section>
+<!-- /.content -->

@@ -18,7 +18,7 @@
             <a href="/Admin/Category/Add" class="nav-link">Thêm Mới</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/Category/Edit" class="nav-link">Cập Nhật</a>
+            <a href="/admin/category/edit" class="nav-link">Cập Nhật</a>
         </li>
     </ul>
 }
@@ -27,7 +27,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>THÊM DANH MỤC</h1>
+                <h1>CẬP NHẬT DANH MỤC</h1>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
@@ -50,7 +50,7 @@
             <div class="card-body p-0">
                 <div class="bs-stepper">
                     <div class="bs-stepper-content">
-                        @using (Html.BeginForm("Edit", "Category", FormMethod.Post, new { }))
+                        @using (Html.BeginForm("Edit", "Category", FormMethod.Post, new {id = Model.Category_ID }))
                         {
                             @Html.AntiForgeryToken()
                             @Html.ValidationSummary(true)
@@ -68,19 +68,19 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Thứ Tự</label>
-                                    @Html.TextAreaFor(x => x.Position, new { @class = "form-control", @Value = "1" })
+                                    @Html.TextBoxFor(x => x.Position, new { @class = "form-control", @Value = "1" })
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Seo Title</label>
-                                    @Html.TextAreaFor(x => x.SeoTitle, new { @class = "form-control" })
+                                    @Html.TextBoxFor(x => x.SeoTitle, new { @class = "form-control" })
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Seo Description</label>
-                                    @Html.TextAreaFor(x => x.SeoDescription, new { @class = "form-control" })
+                                    @Html.TextBoxFor(x => x.SeoDescription, new { @class = "form-control" })
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Seo Keywords</label>
-                                    @Html.TextAreaFor(x => x.SeoKeywords, new { @class = "form-control" })
+                                    @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
                                 </div>
                                 <div class="form-group">
                                     <a href="/admin/category/index" class="btn btn-danger">Quay Lại</a>

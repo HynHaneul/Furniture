@@ -13,6 +13,8 @@ namespace Furniture.Models.Context
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int News_ID { get; set; }
+        [Required(ErrorMessage ="Bạn không được để trống tên Tin Tức")]
+        [StringLength(150)]
         public string Title { get; set; }
         public string Alias { get; set; }
         public int Category_ID { get; set; }

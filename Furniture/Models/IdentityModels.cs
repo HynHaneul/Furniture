@@ -23,7 +23,7 @@ namespace Furniture.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(): base("FURNITURE"){ }
+        public ApplicationDbContext(): base("WoodenFurniture") { }
         public DbSet<Category> categories { get; set; }
         public DbSet<Advertisement> advertisements { get; set; }
         public DbSet<Post>posts { get; set; }   
