@@ -58,28 +58,28 @@
                             <!-- your steps content here -->
                             <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger">
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1">Tên Danh Mục</label>
+                                    <label for="txtTitle">Tên Danh Mục</label>
                                     @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Tên danh mục" })
                                     @Html.ValidationMessageFor(x => x.Title, null, new { @class = "text-danger" })
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Mô Tả</label>
+                                    <label for="txtDescription">Mô Tả</label>
                                     @Html.TextAreaFor(x => x.C_Description, new { @class = "form-control" })
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Thứ Tự</label>
+                                    <label for="txtPosition">Thứ Tự</label>
                                     @Html.TextBoxFor(x => x.Position, new { @class = "form-control", @Value = "1" })
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Seo Title</label>
+                                    <label for="txtSeoTitle">Seo Title</label>
                                     @Html.TextBoxFor(x => x.SeoTitle, new { @class = "form-control" })
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Seo Description</label>
+                                    <label for="txtSeoDescription">Seo Description</label>
                                     @Html.TextBoxFor(x => x.SeoDescription, new { @class = "form-control" })
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1">Seo Keywords</label>
+                                    <label for="txtSeoKeywords">Seo Keywords</label>
                                     @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
                                 </div>
                                 <div class="form-group">

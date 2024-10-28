@@ -14,13 +14,7 @@
             <a href="/Admin/Home/Index" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/Category/Index" class="nav-link">Danh Mục</a>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/Category/Add" class="nav-link">Thêm Mới</a>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/Category/Edit" class="nav-link">Cập Nhật</a>
+            <a href="/Admin/News/Index" class="nav-link">Danh sách tin tức</a>
         </li>
     </ul>
 }
@@ -52,59 +46,61 @@
             <div class="card-body p-0">
                 <div class="bs-stepper">
                     <div class="bs-stepper-content">
-                        @using (Html.BeginForm("Add", "Category", FormMethod.Post, new { }))
+                        @using (Html.BeginForm("Add", "News", FormMethod.Post, new { }))
                         {
                             @Html.AntiForgeryToken()
                             @Html.ValidationSummary(true)
                             <!-- your steps content here -->
-                        <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger">
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Tên Tin Tức</label>
-                                @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Tên danh mục" })
-                                @Html.ValidationMessageFor(x => x.Title, null, new { @class = "text-danger" })
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Mô Tả</label>
-                                @Html.TextAreaFor(x => x.C_Description, new { @class = "form-control" })
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Chi Tiết</label>
-                                @Html.TextBoxFor(x => x.Detail, new { @class = "form-control" })
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputFile">Chọn Ảnh</label>
-                                <div class="input-group">
-                                    <div class="custom-file">
-                                        <label class="custom-file-label" for="txtImage">Ảnh Đại Diện</label>
-                                        @Html.TextBoxFor(x => x.C_Image, new { @class = "form-control", @id="txtImage" ,@placeholder = "Ảnh đại diện",@name="Image" })
+                            <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger">
+                                <div class="form-group">
+                                    <label for="txtTinTuc">Tên Tin Tức</label>
+                                    @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Tên Tin Tức" })
+                                    @Html.ValidationMessageFor(x => x.Title, null, new { @class = "text-danger" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="image">Ảnh đại diện</label>
+                                    <div class="input-group">
+                                        <div class="custom-file">
+                                            @Html.TextBoxFor(x => x.C_Image, new { @id = "image", @class = "form-control" })
+                                        </div>
+                                        <div class="input-group-append">
+                                            <input type="button" value="Tải ảnh" onclick="BrowseServer('image');" />
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="form-group">
+                                    <label for="txtDescription">Mô Tả</label>
+                                    @Html.TextAreaFor(x => x.C_Description, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtDetail">Chi Tiết</label>
+                                    @Html.TextAreaFor(x => x.Detail, new { @class = "form-control", @id = "txtDetail" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtAlias">Alias</label>
+                                    @Html.TextBoxFor(x => x.Alias, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtCreateDate">Ngày Tạo</label>
+                                    @Html.TextBoxFor(x => x.CreatedDate, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtSeoTitle">Seo Title</label>
+                                    @Html.TextBoxFor(x => x.SeoTitle, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtSeoDescription">Seo Description</label>
+                                    @Html.TextBoxFor(x => x.SeoDescription, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtSeoKeywords">Seo Keywords</label>
+                                    @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <a href="/admin/News/index" class="btn btn-danger">Quay Lại</a>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Alias</label>
-                                @Html.TextBoxFor(x => x.Alias, new { @class = "form-control" })
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Ngày Tạo</label>
-                                @Html.TextBoxFor(x => x.CreatedDate, new { @class = "form-control" })
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Seo Title</label>
-                                @Html.TextBoxFor(x => x.SeoTitle, new { @class = "form-control" })
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Seo Description</label>
-                                @Html.TextBoxFor(x => x.SeoDescription, new { @class = "form-control" })
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputPassword1">Seo Keywords</label>
-                                @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
-                            </div>
-                            <div class="form-group">
-                                <a href="/admin/category/index" class="btn btn-danger">Quay Lại</a>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
-                        </div>
                         }
 
                     </div>
@@ -120,3 +116,26 @@
 
 </section>
 <!-- /.content -->
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            CKEDITOR.replace('txtDetail', {
+                customConfig: '/Content/ckeditor/config.js',
+                extraAllowedContent: 'span',
+            });
+        });
+        function BrowseServer(field) {
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (fileUrl) {
+                document.getElementById(field).value = fileUrl;
+            };
+            finder.popup();
+        }
+    </script>
+}
+
+
+
+
+

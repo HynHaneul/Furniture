@@ -12,13 +12,7 @@
             <a href="/Admin/Home/Index" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/Category/Index" class="nav-link">Danh Mục</a>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/Category/Add" class="nav-link">Thêm Mới</a>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/Category/Edit" class="nav-link">Cập Nhật</a>
+            <a href="/Admin/News/Index" class="nav-link">Danh sách tin tức</a>
         </li>
     </ul>
 }
@@ -57,7 +51,6 @@
                     <tr>
                         <th>STT</th>
                         <th>Tên Tin Tức</th>
-                        <th>Chi Tiết</th>
                         <th>Ảnh</th>
                         <th>Ngày Tạo</th>
                     </tr>
@@ -71,9 +64,8 @@
                             <tr id="trow_@item.News_ID">
                                 <td>@i</td>
                                 <td>@item.Title</td>
-                                <td>@item.Detail</td>
                                 <td>@item.C_Image</td>
-                                <td>@item.CreatedDate</td>
+                                <td>@item.CreatedDate.ToString("dd/MM/yyyy")</td>
                                 <td>
                                     <a href="/admin/news/edit/@item.News_ID" class="btn btn-sm btn-secondary">Sửa</a>
                                     <a href="#" data-id="@item.News_ID" class="btn btn-sm btn-danger btnDelete">Xóa</a>

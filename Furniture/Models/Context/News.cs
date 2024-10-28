@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
 
 namespace Furniture.Models.Context
 {
@@ -19,6 +20,7 @@ namespace Furniture.Models.Context
         public string Alias { get; set; }
         public int Category_ID { get; set; }
         public string C_Description { get; set; }
+        [AllowHtml]
         public string Detail { get; set; }
         public string C_Image { get; set; }
         public string SeoTitle { get; set; }
