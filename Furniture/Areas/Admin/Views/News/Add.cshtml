@@ -1,7 +1,7 @@
 ﻿@model Furniture.Models.Context.News
 
 @{
-    ViewBag.Title = "Thêm Tin Tức";
+    ViewBag.Title = "Thêm Mới Tin Tức";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
@@ -18,7 +18,7 @@
         </li>
     </ul>
 }
-<!-- Content Header (Page header) -->
+
 <section class="content-header">
     <div class="container-fluid">
         <div class="row mb-2">
@@ -32,90 +32,91 @@
                 </ol>
             </div>
         </div>
-    </div><!-- /.container-fluid -->
+    </div>
 </section>
-<!-- Main content -->
-<section class="content">
 
-    <!-- Default box -->
+<section class="content">
     <div class="card">
         <div class="card-header">
             <h3 class="card-title">Thông Tin Thêm Mới</h3>
         </div>
         <div class="card-body">
-            <div class="card-body p-0">
-                <div class="bs-stepper">
-                    <div class="bs-stepper-content">
-                        @using (Html.BeginForm("Add", "News", FormMethod.Post, new { }))
-                        {
-                            @Html.AntiForgeryToken()
-                            @Html.ValidationSummary(true)
-                            <!-- your steps content here -->
-                            <div id="logins-part" class="content" role="tabpanel" aria-labelledby="logins-part-trigger">
-                                <div class="form-group">
-                                    <label for="txtTinTuc">Tên Tin Tức</label>
-                                    @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Tên Tin Tức" })
-                                    @Html.ValidationMessageFor(x => x.Title, null, new { @class = "text-danger" })
+            <div class="bs-stepper">
+                <div class="bs-stepper-content">
+                    @using (Html.BeginForm("Add", "News", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        <!-- Step 1: Title -->
+                        <div class="form-group">
+                            <label for="txtTinTuc">Tên Tin Tức</label>
+                            @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Tên Tin Tức" })
+                            @Html.ValidationMessageFor(x => x.Title, null, new { @class = "text-danger" })
+                        </div>
+
+                        <!-- Step 2: Image -->
+                        <div class="form-group">
+                            <label for="image">Ảnh đại diện</label>
+                            <div class="input-group">
+                                <div class="custom-file">
+                                    @Html.TextBoxFor(x => x.C_Image, new { @id = "image", @class = "form-control" })
                                 </div>
-                                <div class="form-group">
-                                    <label for="image">Ảnh đại diện</label>
-                                    <div class="input-group">
-                                        <div class="custom-file">
-                                            @Html.TextBoxFor(x => x.C_Image, new { @id = "image", @class = "form-control" })
-                                        </div>
-                                        <div class="input-group-append">
-                                            <input type="button" value="Tải ảnh" onclick="BrowseServer('image');" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="txtDescription">Mô Tả</label>
-                                    @Html.TextAreaFor(x => x.C_Description, new { @class = "form-control" })
-                                </div>
-                                <div class="form-group">
-                                    <label for="txtDetail">Chi Tiết</label>
-                                    @Html.TextAreaFor(x => x.Detail, new { @class = "form-control", @id = "txtDetail" })
-                                </div>
-                                <div class="form-group">
-                                    <label for="txtAlias">Alias</label>
-                                    @Html.TextBoxFor(x => x.Alias, new { @class = "form-control" })
-                                </div>
-                                <div class="form-group">
-                                    <label for="txtCreateDate">Ngày Tạo</label>
-                                    @Html.TextBoxFor(x => x.CreatedDate, new { @class = "form-control" })
-                                </div>
-                                <div class="form-group">
-                                    <label for="txtSeoTitle">Seo Title</label>
-                                    @Html.TextBoxFor(x => x.SeoTitle, new { @class = "form-control" })
-                                </div>
-                                <div class="form-group">
-                                    <label for="txtSeoDescription">Seo Description</label>
-                                    @Html.TextBoxFor(x => x.SeoDescription, new { @class = "form-control" })
-                                </div>
-                                <div class="form-group">
-                                    <label for="txtSeoKeywords">Seo Keywords</label>
-                                    @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
-                                </div>
-                                <div class="form-group">
-                                    <a href="/admin/News/index" class="btn btn-danger">Quay Lại</a>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                <div class="input-group-append">
+                                    <input type="button" value="Tải ảnh" onclick="BrowseServer('image');" class="btn btn-primary" />
                                 </div>
                             </div>
-                        }
+                        </div>
 
-                    </div>
+                        <!-- Step 3: Description -->
+                        <div class="form-group">
+                            <label for="txtDescription">Mô Tả</label>
+                            @Html.TextAreaFor(x => x.C_Description, new { @class = "form-control" })
+                        </div>
+
+                        <!-- Step 4: Details with CKEditor -->
+                        <div class="form-group">
+                            <label for="txtDetail">Chi Tiết</label>
+                            @Html.TextAreaFor(x => x.Detail, new { @class = "form-control", @id = "txtDetail" })
+                        </div>
+
+                        <!-- Other fields like Alias, Date, SEO fields -->
+                        <div class="form-group">
+                            <label for="txtAlias">Alias</label>
+                            @Html.TextBoxFor(x => x.Alias, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            <label for="txtAlias">Category ID</label>
+                            @Html.TextBoxFor(x => x.Category_ID, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            <label for="txtCreateDate">Ngày Tạo</label>
+                            @Html.TextBoxFor(x => x.CreatedDate, new { @class = "form-control", @type = "date" })
+                        </div>
+                        <div class="form-group">
+                            <label for="txtSeoTitle">Seo Title</label>
+                            @Html.TextBoxFor(x => x.SeoTitle, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            <label for="txtSeoDescription">Seo Description</label>
+                            @Html.TextBoxFor(x => x.SeoDescription, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            <label for="txtSeoKeywords">Seo Keywords</label>
+                            @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
+                        </div>
+
+                        <!-- Submit and Back Button -->
+                        <div class="form-group">
+                            <a href="/admin/News/index" class="btn btn-danger">Quay Lại</a>
+                            <button type="submit" class="btn btn-primary">Lưu</button>
+                        </div>
+                    }
                 </div>
             </div>
         </div>
-        <!-- /.card-body -->
-        <div class="card-footer">
-        </div>
-        <!-- /.card-footer-->
     </div>
-    <!-- /.card -->
-
 </section>
-<!-- /.content -->
 
 @section scripts{
     <script>
@@ -125,6 +126,7 @@
                 extraAllowedContent: 'span',
             });
         });
+
         function BrowseServer(field) {
             var finder = new CKFinder();
             finder.selectActionFunction = function (fileUrl) {
@@ -134,7 +136,6 @@
         }
     </script>
 }
-
 
 
 

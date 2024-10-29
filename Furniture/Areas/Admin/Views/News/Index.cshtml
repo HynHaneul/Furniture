@@ -52,7 +52,7 @@
                         <th>STT</th>
                         <th>Tên Tin Tức</th>
                         <th>Ảnh</th>
-                        <th>Ngày Tạo</th>
+                        <th class="text-center">Trạng Thái</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -61,15 +61,23 @@
                         var i = 1;
                         foreach (var item in Model)
                         {
+                            var strCheck = item.IsActive
+                                ? "<a href='#'><i class='fa fa-check text-success'></i></a>"
+                                : "<a href='#'><i class='fa fa-times text-danger'></i></a>";
+
                             <tr id="trow_@item.News_ID">
                                 <td>@i</td>
                                 <td>@item.Title</td>
-                                <td>@item.C_Image</td>
+                                <td><img src="@item.C_Image" width="50" /></td>
                                 <td>@item.CreatedDate.ToString("dd/MM/yyyy")</td>
+                                <td class="text-center">
+                                    @Html.Raw(strCheck)
+                                </td>
                                 <td>
                                     <a href="/admin/news/edit/@item.News_ID" class="btn btn-sm btn-secondary">Sửa</a>
                                     <a href="#" data-id="@item.News_ID" class="btn btn-sm btn-danger btnDelete">Xóa</a>
                                 </td>
+
                             </tr>
                             i++;
                         }

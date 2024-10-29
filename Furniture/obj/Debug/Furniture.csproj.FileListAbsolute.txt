@@ -121,3 +121,4 @@ E:\Furniture\Furniture\obj\Debug\Furniture.csproj.GenerateResource.cache
 E:\Furniture\Furniture\bin\CKFinder.dll
 E:\Furniture\Furniture\bin\CKFinder.pdb
 E:\Furniture\Furniture\obj\Debug\Furniture.Migrations.saveDatabase.resources
+E:\Furniture\Furniture\obj\Debug\Furniture.Migrations.updateActive.resources

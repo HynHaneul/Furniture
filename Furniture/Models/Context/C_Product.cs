@@ -40,6 +40,7 @@ namespace Furniture.Models.Context
         public string CreatedBy { get; set; }
         public DateTime ModifiedDate { get; set; }
         public string ModifiedBy { get; set; }
+        public bool IsActive { get; set; }
 
         public virtual ICollection<Order_Details> Order_Details { get; set; }
         public virtual Product_Category Product_Category { get; set; }

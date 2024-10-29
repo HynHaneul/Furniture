@@ -1,5 +1,6 @@
 ﻿using Furniture.Models;
 using Furniture.Models.Context;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -24,18 +25,53 @@ namespace Furniture.Areas.Admin.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Add(News model)
+        public ActionResult Add(News news)
         {
             if (ModelState.IsValid)
             {
-                model.CreatedDate = DateTime.Now;
-                model.ModifiedDate = DateTime.Now;
-                model.Alias = Furniture.Models.Common.Filter.FilterChar(model.Title);
-                dbConnect.news.Add(model);
+                news.CreatedDate = DateTime.Now;
+                news.ModifiedDate = DateTime.Now;
+                news.Alias = Furniture.Models.Common.Filter.FilterChar(news.Title);
+                dbConnect.news.Add(news);
                 dbConnect.SaveChanges();
                 return RedirectToAction("Index");
             }
+            return View(news);
+        }
+        public ActionResult Edit(int id)
+        {
+            var item = dbConnect.news.Find(id);
+            return View(item);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(News model)
+        {
+            if (ModelState.IsValid)
+            {
+                dbConnect.news.Attach(model);
+                model.ModifiedDate = DateTime.Now;
+                model.Alias = Furniture.Models.Common.Filter.FilterChar(model.Title);
+                dbConnect.Entry(model).State = EntityState.Modified;
+                dbConnect.SaveChanges();
+                return RedirectToAction("Index");
+
+            }
             return View(model);
+        }
+        [HttpPost]
+
+        public ActionResult Delete(int id)
+        
+        {
+            var item = dbConnect.news.Find(id);
+            if(item != null)
+            {
+                dbConnect.news.Remove(item);
+                dbConnect.SaveChanges();
+                return Json(new { success = true });
+            }
+            return Json(new { success  = false});
         }
     }
 }

@@ -1,0 +1,156 @@
+﻿
+
+@model Furniture.Models.Context.News
+@{
+    ViewBag.Title = "Cập nhật Tin Tức";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section naviHeader {
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin/Home/Index" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/Admin/News/Index" class="nav-link">Danh sách tin tức</a>
+        </li>
+    </ul>
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Cập nhật Tin Tức</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Tin Tức</a></li>
+                    <li class="breadcrumb-item active">Cập nhật</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Thông Tin Cập nhật Tin Tức</h3>
+        </div>
+        <div class="card-body">
+            @if (Model != null)
+            {
+                using (Html.BeginForm("Edit", "News", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.HiddenFor(x => x.News_ID)
+                    @Html.HiddenFor(x => x.Category_ID)
+                    @Html.HiddenFor(x => x.CreatedDate)
+
+                    <!-- Step 1: Title -->
+                    <div class="form-group">
+                        <label for="txtTinTuc">Tên Tin Tức</label>
+                        @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Tên Tin Tức" })
+                        @Html.ValidationMessageFor(x => x.Title, null, new { @class = "text-danger" })
+                    </div>
+
+                    <!-- Step 2: Image -->
+                    <div class="form-group">
+                        <label for="image">Ảnh đại diện</label>
+                        <div class="input-group">
+                            <div class="custom-file">
+                                @Html.TextBoxFor(x => x.C_Image, new { @id = "image", @class = "form-control", @placeholder = "Đường dẫn ảnh" })
+                            </div>
+                            <div class="input-group-append">
+                                <input type="button" value="Tải ảnh" onclick="BrowseServer('image');" class="btn btn-primary" />
+                            </div>
+                        </div>
+                        @Html.ValidationMessageFor(x => x.C_Image, null, new { @class = "text-danger" })
+                    </div>
+
+                    <!-- Step 3: Description -->
+                    <div class="form-group">
+                        <label for="txtDescription">Mô Tả</label>
+                        @Html.TextAreaFor(x => x.C_Description, new { @class = "form-control", @placeholder = "Mô Tả" })
+                    </div>
+
+                    <!-- Step 4: Details with CKEditor -->
+                    <div class="form-group">
+                        <label for="txtDetail">Chi Tiết</label>
+                        @Html.TextAreaFor(x => x.Detail, new { @class = "form-control", @id = "txtDetail" })
+                    </div>
+
+                    <!-- Other fields like Alias, Date, SEO fields -->
+                    <div class="form-group">
+                        <label for="txtAlias">Alias</label>
+                        @Html.TextBoxFor(x => x.Alias, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label for="txtCategoryID">Category ID</label>
+                        @Html.TextBoxFor(x => x.Category_ID, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label for="txtCreateDate">Ngày Tạo</label>
+                        @Html.TextBoxFor(x => x.CreatedDate, new { @class = "form-control", @type = "date" })
+                    </div>
+                    <div class="form-group">
+                        <label for="txtSeoTitle">Seo Title</label>
+                        @Html.TextBoxFor(x => x.SeoTitle, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label for="txtSeoDescription">Seo Description</label>
+                        @Html.TextBoxFor(x => x.SeoDescription, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label for="txtSeoKeywords">Seo Keywords</label>
+                        @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label for="txtActive">Trạng Thái</label>
+                        @Html.CheckBoxFor(x => x.IsActive , new { @checked = "checked"})
+                    </div>
+
+                    <!-- Submit and Back Button -->
+                    <div class="form-group">
+                        <a href="/admin/News/Index" class="btn btn-danger">Quay Lại</a>
+                        <button type="submit" class="btn btn-primary">Cập nhật</button>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="alert alert-danger">Không tìm thấy thông tin tin tức!</div>
+            }
+        </div>
+    </div>
+</section>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            CKEDITOR.replace('txtDetail', {
+                customConfig: '/Content/ckeditor/config.js',
+                extraAllowedContent: 'span',
+            });
+        });
+
+        function BrowseServer(field) {
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (fileUrl) {
+                document.getElementById(field).value = fileUrl;
+            };
+            finder.popup();
+        }
+    </script>
+}
+
+
+
+
+
+
