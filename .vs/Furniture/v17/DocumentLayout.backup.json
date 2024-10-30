@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "E:\\Furniture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\news\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\news\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -132,69 +140,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
-              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
-              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
-              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAkwEcAAABMAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T04:34:11.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
-              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
-              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAAC4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T07:39:05.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
-              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
-              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
-              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAwG8AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T07:37:51.707Z",
+              "WhenOpened": "2024-10-30T02:50:44.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NewsController.cs",
-              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwEkAAAAxAAAAAAAAAA==",
+              "Title": "PostController.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T04:31:52.333Z",
+              "WhenOpened": "2024-10-30T02:50:30.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "C_Product.cs",
-              "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\C_Product.cs",
-              "RelativeDocumentMoniker": "Furniture\\Models\\Context\\C_Product.cs",
-              "ToolTip": "E:\\Furniture\\Furniture\\Models\\Context\\C_Product.cs",
-              "RelativeToolTip": "Furniture\\Models\\Context\\C_Product.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:12:37.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Post.cs",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\Post.cs",
               "RelativeDocumentMoniker": "Furniture\\Models\\Context\\Post.cs",
@@ -206,7 +176,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T07:39:05.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T04:34:11.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T04:31:52.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "C_Product.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\C_Product.cs",
+              "RelativeDocumentMoniker": "Furniture\\Models\\Context\\C_Product.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Models\\Context\\C_Product.cs",
+              "RelativeToolTip": "Furniture\\Models\\Context\\C_Product.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:12:37.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Category.cs",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\Category.cs",
               "RelativeDocumentMoniker": "Furniture\\Models\\Context\\Category.cs",
@@ -218,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "News.cs",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\News.cs",
               "RelativeDocumentMoniker": "Furniture\\Models\\Context\\News.cs",
@@ -230,7 +251,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T15:32:47.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAwG8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T07:37:51.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Category\\Index.cshtml",
@@ -242,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -254,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Add.cshtml",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Add.cshtml",
               "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Category\\Add.cshtml",
@@ -266,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -278,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Error.cshtml",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Furniture\\Views\\Shared\\Error.cshtml",
@@ -290,19 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFEAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T15:32:47.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -314,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "config.js",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Content\\ckeditor\\config.js",
               "RelativeDocumentMoniker": "Furniture\\Content\\ckeditor\\config.js",
@@ -326,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ckeditor.js",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Content\\ckeditor\\ckeditor.js",
               "RelativeDocumentMoniker": "Furniture\\Content\\ckeditor\\ckeditor.js",
@@ -338,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Furniture\\Views\\Shared\\_Layout.cshtml",
@@ -350,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Web.config",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Web.config",
               "RelativeDocumentMoniker": "Furniture\\Web.config",
@@ -363,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "202410170813527_updateDatabase.cs",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Migrations\\202410170813527_updateDatabase.cs",
               "RelativeDocumentMoniker": "Furniture\\Migrations\\202410170813527_updateDatabase.cs",
@@ -375,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "_PartialSideBar.cshtml",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Shared\\_PartialSideBar.cshtml",
               "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Shared\\_PartialSideBar.cshtml",
@@ -387,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "IdentityModels.cs",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\IdentityModels.cs",
               "RelativeDocumentMoniker": "Furniture\\Models\\IdentityModels.cs",
@@ -399,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Advertisement.cs",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\Advertisement.cs",
               "RelativeDocumentMoniker": "Furniture\\Models\\Context\\Advertisement.cs",
@@ -411,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "System_Setting.cs",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\System_Setting.cs",
               "RelativeDocumentMoniker": "Furniture\\Models\\Context\\System_Setting.cs",

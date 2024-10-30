@@ -73,5 +73,36 @@ namespace Furniture.Areas.Admin.Controllers
             }
             return Json(new { success  = false});
         }
+        public ActionResult IsActive(int id)
+        {
+            var item = dbConnect.news.Find(id);
+            if(item != null)
+            {
+                item.IsActive = !item.IsActive;
+                dbConnect.Entry(item).State = System.Data.Entity.EntityState.Modified;
+                dbConnect.SaveChanges();
+                return Json(new { success = true, isActive = item.IsActive });
+            }
+            return Json(new { success = false });
+        }
+        [HttpPost]
+        public ActionResult deleteAll(string ids)
+        {
+            if (!string.IsNullOrEmpty(ids))
+            {
+                var items = ids.Split(',');
+                if(items !=  null && items.Any())
+                {
+                    foreach(var item in items)
+                    {
+                        var obj = dbConnect.news.Find(Convert.ToInt32(item));    
+                        dbConnect.news.Remove(obj);
+                        dbConnect.SaveChanges ();
+                    }
+                }
+                return Json(new { success = true });
+            }
+            return Json(new { success = false});
+        }
     }
 }
