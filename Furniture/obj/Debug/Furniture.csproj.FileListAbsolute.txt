@@ -122,3 +122,8 @@ E:\Furniture\Furniture\bin\CKFinder.dll
 E:\Furniture\Furniture\bin\CKFinder.pdb
 E:\Furniture\Furniture\obj\Debug\Furniture.Migrations.saveDatabase.resources
 E:\Furniture\Furniture\obj\Debug\Furniture.Migrations.updateActive.resources
+E:\Furniture\Furniture\obj\Debug\Furniture.Migrations.changeModel.resources
+E:\Furniture\Furniture\bin\PagedList.dll
+E:\Furniture\Furniture\bin\PagedList.Mvc.dll
+E:\Furniture\Furniture\bin\PagedList.xml
+E:\Furniture\Furniture\bin\PagedList.Mvc.xml

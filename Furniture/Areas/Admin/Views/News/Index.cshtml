@@ -1,4 +1,6 @@
-﻿@model IEnumerable<Furniture.Models.Context.News>
+﻿@model IPagedList<Furniture.Models.Context.News>
+@using PagedList.Mvc;
+@using PagedList;
 @{
     ViewBag.Title = "Tin Tức";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
@@ -43,10 +45,24 @@
 
             <div class="card-tools">
                 <a href="/Admin/News/Add" class="btn btn-primary">Thêm mới</a>
-                <a href="#" class="btn btn-danger" id="btnDeleteAll">xóa</a>
+                <a href="#" class="btn btn-danger" id="btnDeleteAll">Xóa</a>
             </div>
         </div>
         <div class="card-body">
+            <div class="row">
+                <div class="col-8">
+                    @using (Html.BeginForm("Index", "News", FormMethod.Get))
+                    {
+                        <div class="form-group input-group input-group-sm">
+                            @Html.TextBox("searchText", ViewBag.searchText as string, new { @class = "form-control", placeholder = "Nhập từ khóa tìm kiếm..." })
+                            <span class="input-group-append">
+                                <button type="submit" class="btn btn-info btn-flat">Tìm Kiếm</button>
+                            </span>
+                        </div>
+                    }
+                </div>
+            </div>
+
             <table class="table table-hover">
                 <thead>
                     <tr>
@@ -61,7 +77,7 @@
                 <tbody>
                     @if (Model != null && Model.Any())
                     {
-                        var i = 1;
+                        var i = ((ViewBag.Page - 1) * ViewBag.PageSize) + 1;
                         foreach (var item in Model)
                         {
                             var strCheck = item.IsActive
@@ -97,7 +113,13 @@
                     }
                 </tbody>
             </table>
-
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6" style="text-align:right;">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+                </div>
+            </div>
         </div>
         <!-- /.card-body -->
         <div class="card-footer">
@@ -170,7 +192,7 @@
                         data: { id: id },
                         success: function (rs) {
                             if (rs.success) {
-                                $("#trow_" + id).remove();      
+                                $("#trow_" + id).remove();
                             }
                         }
                     })

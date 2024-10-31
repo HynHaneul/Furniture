@@ -1,7 +1,7 @@
 ﻿@model Furniture.Models.Context.News
 
 @{
-    ViewBag.Title = "Thêm Mới Tin Tức";
+    ViewBag.Title = "Thêm Mới Bài Viết";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
@@ -14,7 +14,7 @@
             <a href="/Admin/Home/Index" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/News/Index" class="nav-link">Danh sách tin tức</a>
+            <a href="/Admin/News/Index" class="nav-link">Danh sách Bài Viết</a>
         </li>
     </ul>
 }
@@ -23,11 +23,11 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>THÊM MỚI TIN TỨC</h1>
+                <h1>THÊM MỚI BÀI VIẾT</h1>
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Tin Tức</a></li>
+                    <li class="breadcrumb-item"><a href="#">Bài Viết</a></li>
                     <li class="breadcrumb-item active">Thêm Mới</li>
                 </ol>
             </div>
@@ -43,15 +43,15 @@
         <div class="card-body">
             <div class="bs-stepper">
                 <div class="bs-stepper-content">
-                    @using (Html.BeginForm("Add", "News", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    @using (Html.BeginForm("Add", "Post", FormMethod.Post, new { enctype = "multipart/form-data" }))
                     {
                         @Html.AntiForgeryToken()
                         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
                         <!-- Step 1: Title -->
                         <div class="form-group">
-                            <label for="txtTinTuc">Tên Tin Tức</label>
-                            @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Tên Tin Tức" })
+                            <label for="txtTinTuc">Tên Bài Viết</label>
+                            @Html.TextBoxFor(x => x.Title, new { @class = "form-control", @placeholder = "Tên Bài Viết" })
                             @Html.ValidationMessageFor(x => x.Title, null, new { @class = "text-danger" })
                         </div>
 
@@ -105,10 +105,7 @@
                             <label for="txtSeoKeywords">Seo Keywords</label>
                             @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
                         </div>
-                        <div class="form-group">
-                            <label for="txtActive">Trạng Thái</label>
-                            @Html.CheckBoxFor(x => x.IsActive)
-                        </div>
+
                         <!-- Submit and Back Button -->
                         <div class="form-group">
                             <a href="/admin/News/index" class="btn btn-danger">Quay Lại</a>
@@ -139,6 +136,8 @@
         }
     </script>
 }
+
+
 
 
 

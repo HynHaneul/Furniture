@@ -1,12 +1,14 @@
 ﻿using Furniture.Models;
 using Furniture.Models.Context;
 using NUnit.Framework;
+using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 
 namespace Furniture.Areas.Admin.Controllers
 {
@@ -14,9 +16,22 @@ namespace Furniture.Areas.Admin.Controllers
     {
         private ApplicationDbContext dbConnect = new ApplicationDbContext();
         // GET: Admin/News
-        public ActionResult Index()
+        public ActionResult Index(string searchText ,int? page)
         {
-            var items = dbConnect.news.OrderByDescending(x => x.News_ID).ToList();
+            int pageSize = 5;
+            if (page == null)
+            {
+                page = 1;
+            }
+            IEnumerable<News> items = dbConnect.news.OrderByDescending(x => x.News_ID);
+            if (!string.IsNullOrEmpty(searchText))
+            {
+               items = items.Where(x => x.Alias.Contains(searchText) || x.Title.Contains(searchText));
+            }
+            int pageIndex = page.HasValue ? Convert.ToInt32(page) : 1;
+                items = items.ToPagedList(pageIndex, pageSize);
+            ViewBag.PageSize = pageSize;
+            ViewBag.Page = page;
             return View(items);
         }
         public ActionResult Add()
