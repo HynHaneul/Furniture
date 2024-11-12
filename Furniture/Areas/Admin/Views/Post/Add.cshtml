@@ -14,7 +14,7 @@
             <a href="/Admin/Home/Index" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/Admin/News/Index" class="nav-link">Danh sách Bài Viết</a>
+            <a href="/Admin/Post/Index" class="nav-link">Danh sách Bài Viết</a>
         </li>
     </ul>
 }
@@ -105,7 +105,10 @@
                             <label for="txtSeoKeywords">Seo Keywords</label>
                             @Html.TextBoxFor(x => x.SeoKeywords, new { @class = "form-control" })
                         </div>
-
+                        <div class="form-group">
+                            <label for="txtActive">Trạng Thái</label>
+                            @Html.CheckBoxFor(x => x.IsActive)
+                        </div>
                         <!-- Submit and Back Button -->
                         <div class="form-group">
                             <a href="/admin/News/index" class="btn btn-danger">Quay Lại</a>

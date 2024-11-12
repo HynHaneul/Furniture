@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "E:\\Furniture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -11,16 +11,48 @@
       "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\models\\context\\c_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\models\\context\\c_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\news\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\views\\news\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\news\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|e:\\furniture\\furniture\\areas\\admin\\views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\models\\context\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\models\\context\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\models\\context\\c_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\models\\context\\c_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|E:\\Furniture\\furniture\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FFBA9EF-BDB5-403C-884C-35E903D89C1A}|Furniture\\Furniture.csproj|solutionrelative:furniture\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,8 +61,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 375,
-          "SelectedChildIndex": 5,
+          "DockedHeight": 383,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,54 +86,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:50:36.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-31T07:25:12.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "C_Product.cs",
-              "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\C_Product.cs",
-              "RelativeDocumentMoniker": "Furniture\\Models\\Context\\C_Product.cs",
-              "ToolTip": "E:\\Furniture\\Furniture\\Models\\Context\\C_Product.cs",
-              "RelativeToolTip": "Furniture\\Models\\Context\\C_Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Post.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\Post.cs",
+              "RelativeDocumentMoniker": "Furniture\\Models\\Context\\Post.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Models\\Context\\Post.cs",
+              "RelativeToolTip": "Furniture\\Models\\Context\\Post.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T07:24:58.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T07:24:06.435Z",
+              "WhenOpened": "2024-10-31T08:08:57.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "NewsController.cs",
-              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\NewsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T06:50:36.253Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\News\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T04:00:22.995Z",
               "EditorCaption": ""
             },
             {
@@ -112,15 +144,118 @@
               "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
               "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
               "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\News\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAE0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-17T04:34:11.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAE8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T07:40:39.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Post\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Post\\Edit.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Post\\Edit.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Post\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T04:01:04.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:24:06.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:37:58.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\News\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T03:59:46.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:40:16.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Post\\Add.cshtml",
+              "RelativeDocumentMoniker": "Furniture\\Areas\\Admin\\Views\\Post\\Add.cshtml",
+              "ToolTip": "E:\\Furniture\\Furniture\\Areas\\Admin\\Views\\Post\\Add.cshtml",
+              "RelativeToolTip": "Furniture\\Areas\\Admin\\Views\\Post\\Add.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAGwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T03:54:05.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "C_Product.cs",
+              "DocumentMoniker": "E:\\Furniture\\Furniture\\Models\\Context\\C_Product.cs",
+              "RelativeDocumentMoniker": "Furniture\\Models\\Context\\C_Product.cs",
+              "ToolTip": "E:\\Furniture\\Furniture\\Models\\Context\\C_Product.cs",
+              "RelativeToolTip": "Furniture\\Models\\Context\\C_Product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T07:24:58.957Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 25,
+          "DockedHeight": 17,
           "SelectedChildIndex": -1,
           "Children": [
             {
